@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Músicas</title>
+    <link rel="stylesheet" href="CSS/musicas.css">
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="SpotPobre.html">SpotIFy Pobre</a></li>
+                <li><a href="desenvolvedores.html">Desenvolvedores</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Cadastro de Músicas</h1>
+
+        <form id="musica-form">
+            <label for="titulo">Título da Música:</label>
+            <input type="text" id="titulo" name="titulo" required>
+
+            <label for="artista">Artista:</label>
+            <input type="text" id="artista" name="artista" required>
+
+            <label for="link">Link para a Música:</label>
+            <input type="url" id="link" name="link" required>
+
+            <button type="submit">Cadastrar Música</button>
+        </form>
+
+        
+        <h2>Músicas Cadastradas</h2>
+        <table id="musica-table">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Artista</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Modo Absurdo</td><td>Ferrugem</td> <td><a href="https://open.spotify.com/intl-pt/track/4cogzMK0G9w6KTu3hkjrZ2?autoplay=true">ouvir</a></td></tr>
+                <tr><td>Camisa 10</td><td>Turma do pagode</td> <td><a href="https://open.spotify.com/intl-pt/track/7AcefBF4taQY42JqWnfhTV?autoplay=true">ouvir</a></td></tr>
+                <tr><td>Tá Vendo Aquela Lua</td><td>Exaltasamba</td> <td><a href="https://open.spotify.com/intl-pt/track/6DjKWVAqXUvMaAzO4U4CIo">ouvir</a></td></tr>
+                
+            </tbody>
+        </table>
+    </div>
+    
+    <footer>
+        <p>IFRN Campus Santa Cruz</p>
+        <p>Trabalho de Autoria Web</p>
+        <p>Prof. Marcelo Figueiredo Barbosa Júnior</p>
+        <p>DEVs:Diego da Silva Campelo;Kevily Mariana Santos de Araújo;Mykaely Raissa Costa da Silva</p>
+    </footer>
+
+    <script src="javaScript/musicas.js"></script>
+</body>
+</html>
